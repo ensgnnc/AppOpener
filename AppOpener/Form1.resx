@@ -1,0 +1,1110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Steam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EpicGames.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Twitch.Name" xml:space="preserve">
+    <value>Twitch</value>
+  </data>
+  <data name="pictureBox7.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Calculator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox11.Name" xml:space="preserve">
+    <value>pictureBox11</value>
+  </data>
+  <data name="&gt;&gt;EpicGames.Name" xml:space="preserve">
+    <value>EpicGames</value>
+  </data>
+  <data name="pictureBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 144</value>
+  </data>
+  <data name="Discord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 0</value>
+  </data>
+  <data name="pictureBox3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Whatsapp.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 0</value>
+  </data>
+  <data name="pictureBox14.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Youtube.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 72</value>
+  </data>
+  <data name="Spotify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Spotify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LeagueOfLegends.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeagueOfLegends.Name" xml:space="preserve">
+    <value>LeagueOfLegends</value>
+  </data>
+  <data name="&gt;&gt;Steam.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Twitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 144</value>
+  </data>
+  <data name="pictureBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 144</value>
+  </data>
+  <data name="&gt;&gt;pictureBox13.Name" xml:space="preserve">
+    <value>pictureBox13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 0</value>
+  </data>
+  <data name="pictureBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="Minimize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 144</value>
+  </data>
+  <data name="Logitech.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pictureBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Twitch.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pictureBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 0</value>
+  </data>
+  <data name="&gt;&gt;Minimize.Name" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="pictureBox9.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="EpicGames.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 0</value>
+  </data>
+  <data name="&gt;&gt;Minecraft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cmd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Logitech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox16.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="pictureBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;VisualStudio.Name" xml:space="preserve">
+    <value>VisualStudio</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox8.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Steam.Name" xml:space="preserve">
+    <value>Steam</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;Logitech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Mail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;WindowsStore.Name" xml:space="preserve">
+    <value>WindowsStore</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox17.Name" xml:space="preserve">
+    <value>pictureBox17</value>
+  </data>
+  <data name="pictureBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 144</value>
+  </data>
+  <data name="&gt;&gt;pictureBox12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Calculator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OneDrive.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Twitter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Discord.Name" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="&gt;&gt;pictureBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Youtube.Name" xml:space="preserve">
+    <value>Youtube</value>
+  </data>
+  <data name="EpicGames.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pictureBox15.Name" xml:space="preserve">
+    <value>pictureBox15</value>
+  </data>
+  <data name="pictureBox16.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;Steam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pictureBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Calculator.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Spotify.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox10.Name" xml:space="preserve">
+    <value>pictureBox10</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 0</value>
+  </data>
+  <data name="&gt;&gt;Cmd.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Opera.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pictureBox16.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeagueOfLegends.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox10.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;VisualStudio.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Twitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Youtube.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Discord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Calculator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;Valorant.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;Valorant.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 144</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox11.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 72</value>
+  </data>
+  <data name="Cmd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="pictureBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 144</value>
+  </data>
+  <data name="&gt;&gt;Mail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="pictureBox11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Whatsapp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="&gt;&gt;Steam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Twitter.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="pictureBox15.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WindowsStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VisualStudio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Minimize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Spotify.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox12.Name" xml:space="preserve">
+    <value>pictureBox12</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>448, 255</value>
+  </data>
+  <data name="pictureBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pictureBox12.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Calculator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 0</value>
+  </data>
+  <data name="&gt;&gt;EpicGames.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 0</value>
+  </data>
+  <data name="Twitch.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="VisualStudio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 144</value>
+  </data>
+  <data name="Discord.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Steam.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Logitech.Name" xml:space="preserve">
+    <value>Logitech</value>
+  </data>
+  <data name="Valorant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 144</value>
+  </data>
+  <data name="&gt;&gt;pictureBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Zoom.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="pictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Calculator.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pictureBox18.Name" xml:space="preserve">
+    <value>pictureBox18</value>
+  </data>
+  <data name="&gt;&gt;LeagueOfLegends.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Discord.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Minimize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox19.Name" xml:space="preserve">
+    <value>pictureBox19</value>
+  </data>
+  <data name="pictureBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pictureBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;pictureBox19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Zoom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 144</value>
+  </data>
+  <data name="&gt;&gt;Twitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 144</value>
+  </data>
+  <data name="&gt;&gt;pictureBox14.Name" xml:space="preserve">
+    <value>pictureBox14</value>
+  </data>
+  <data name="pictureBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox18.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox17.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Close.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Minecraft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Zoom.Name" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;Zoom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Twitter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;Cmd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox14.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;OneDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minimize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Logitech.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Spotify.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Minecraft.Name" xml:space="preserve">
+    <value>Minecraft</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pictureBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pictureBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;OneDrive.Name" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="&gt;&gt;Youtube.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Minecraft.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;VisualStudio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Twitter.Name" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="pictureBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Cmd.Name" xml:space="preserve">
+    <value>Cmd</value>
+  </data>
+  <data name="&gt;&gt;WindowsStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Name" xml:space="preserve">
+    <value>pictureBox16</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 144</value>
+  </data>
+  <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 72</value>
+  </data>
+  <data name="pictureBox12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Opera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox17.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Mail.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Youtube.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Logitech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="Minimize.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Youtube.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Close.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Close.Name" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WindowsStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 144</value>
+  </data>
+  <data name="&gt;&gt;Opera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox4.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;Calculator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox6.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;OneDrive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Spotify.Name" xml:space="preserve">
+    <value>Spotify</value>
+  </data>
+  <data name="Twitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 144</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="Whatsapp.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pictureBox10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;WindowsStore.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Opera.Name" xml:space="preserve">
+    <value>Opera</value>
+  </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 72</value>
+  </data>
+  <data name="pictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Name" xml:space="preserve">
+    <value>pictureBox9</value>
+  </data>
+  <data name="&gt;&gt;Mail.Name" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="&gt;&gt;EpicGames.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>432, 216</value>
+  </data>
+  <data name="pictureBox13.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="LeagueOfLegends.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 0</value>
+  </data>
+  <data name="&gt;&gt;Calculator.Name" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 72</value>
+  </data>
+  <data name="&gt;&gt;Whatsapp.Name" xml:space="preserve">
+    <value>Whatsapp</value>
+  </data>
+  <data name="Whatsapp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 144</value>
+  </data>
+  <data name="Cmd.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
+    <value>pictureBox8</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 72</value>
+  </data>
+  <data name="VisualStudio.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Valorant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Opera.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LeagueOfLegends.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox17.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Minecraft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Calculator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>448, 255</value>
+  </data>
+  <data name="pictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Valorant.Name" xml:space="preserve">
+    <value>Valorant</value>
+  </data>
+  <data name="Valorant.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Twitch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Minecraft.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Whatsapp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WindowsStore.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Opera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 72</value>
+  </data>
+  <data name="pictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Mail.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Calculator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Discord.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pictureBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>
