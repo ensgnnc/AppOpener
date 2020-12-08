@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace AppOpener
 {
@@ -16,6 +17,47 @@ namespace AppOpener
         {
             InitializeComponent();
         }
+
+        /*
+         * INI
+         * FILE
+         * REGISTERATION
+        */
+
+        public string ReadConfig(string section, string key)
+        {
+            string retVal = string.Empty;
+            string bankname = string.Empty;
+            string basePath = System.Environment.CurrentDirectory + "\\" + "Settings";
+            INIFile ini = new INIFile(Path.Combine(basePath, "ConfigFile.ini"));
+            if (!Directory.Exists(basePath))
+            {
+                Directory.CreateDirectory(basePath);
+                ini.IniWriteValue("Discord", "Discord Path", "C:/Users/Enis/AppData/Local/Discord/app-0.0.308/Discord.exe");
+                ini.IniWriteValue("Epic Games", "Epic Games Path", "C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe");
+                ini.IniWriteValue("League Of Legends", "League Of Legends Path", "C:/Riot Games/League of Legends/LeagueClient.exe");
+                ini.IniWriteValue("Logitech", "Logitech Path", "C:/Program Files/Logitech Gaming Software/LCore.exe");
+                ini.IniWriteValue("Minecraft", "Minecraft Path", "C:/Program Files(x86)/Minecraft Launcher/MinecraftLauncher.exe");
+                ini.IniWriteValue("OneDrive", "OneDrive Path", "C:/Users/Enis/AppData/Local/Microsoft/OneDrive/OneDrive.exe");
+                ini.IniWriteValue("Opera WebBrowser", "Opera WebBrowser Path", "C:/Users/Enis/AppData/Local/Programs/Opera GX/launcher.exe");
+                ini.IniWriteValue("Spotify", "Spotify Path", "C:/Users/Enis/AppData/Roaming/Spotify/Spotify.exe");
+                ini.IniWriteValue("Steam", "Steam Path", "C:/Program Files (x86)/Steam/steam.exe");
+                ini.IniWriteValue("Valorant", "Valorant Path", "C:/Riot Games/Riot Client/RiotClientServices.exe");//Valorant
+                ini.IniWriteValue("Visual Studio", "Visual Studio Path", "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/devenv.exe");
+                ini.IniWriteValue("Whatsapp", "Whatsapp Path", "C:/Users/Enis/AppData/Local/WhatsApp/WhatsApp.exe");
+                ini.IniWriteValue("Zoom", "Zoom Path", "C:/Users/Enis/AppData/Roaming/Zoom/bin/Zoom.exe");
+            }
+            retVal = ini.IniReadValue(section, key);
+            return retVal;
+        }
+
+        /*
+         * END
+         * OF
+         * INI
+         * FILE
+         * REGISTERATION
+        */
 
         ///
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -35,7 +77,6 @@ namespace AppOpener
             }
         }
         ///
-
 
         public static void OpenApp(string apppath)
         {
@@ -63,12 +104,18 @@ namespace AppOpener
 
         private void Discord_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Users/dengu/AppData/Local/Discord/app-0.0.308/Discord.exe");
+            string discordpath = ReadConfig("Discord", "Discord Path");
+            MessageBox.Show(discordpath);
+            Console.WriteLine(discordpath);
+            OpenApp(discordpath);
         }
 
         private void EpicGames_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe");
+            string epic = ReadConfig("Epic Games", "Epic Games Path");
+            MessageBox.Show(epic);
+            Console.WriteLine(epic);
+            OpenApp(epic);
         }
 
         private void Mail_Click(object sender, EventArgs e)
@@ -79,37 +126,58 @@ namespace AppOpener
 
         private void LeagueOfLegends_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Riot Games/League of Legends/LeagueClient.exe");
+            string lol = ReadConfig("League Of Legends", "League Of Legends Path");
+            MessageBox.Show(lol);
+            Console.WriteLine(lol);
+            OpenApp(lol);
         }
 
         private void Logitech_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files/Logitech Gaming Software/LCore.exe");
+            string logitech = ReadConfig("Logitech", "Logitech Path");
+            MessageBox.Show(logitech);
+            Console.WriteLine(logitech);
+            OpenApp(logitech);
         }
 
         private void Minecraft_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files (x86)/Minecraft Launcher/MinecraftLauncher.exe");
+            string mc = ReadConfig("Minecraft", "Minecraft Path");
+            MessageBox.Show(mc);
+            Console.WriteLine(mc);
+            OpenApp(mc);
         }
 
         private void OneDrive_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Users/dengu/AppData/Local/Microsoft/OneDrive/OneDrive.exe");
+            string onedrive = ReadConfig("OneDrive", "OneDrive Path");
+            MessageBox.Show(onedrive);
+            Console.WriteLine(onedrive);
+            OpenApp(onedrive);
         }
 
         private void Opera_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Users/dengu/AppData/Local/Programs/Opera GX/launcher.exe");
+            string opera = ReadConfig("Opera WebBrowser", "Opera WebBrowser Path");
+            MessageBox.Show(opera);
+            Console.WriteLine(opera);
+            OpenApp(opera);
         }
 
         private void Spotify_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files/WindowsApps/SpotifyAB.SpotifyMusic_1.147.684.0_x86__zpdnekdrzrea0/Spotify.exe");
+            string spotify = ReadConfig("Spotify", "Spotify Path");
+            MessageBox.Show(spotify);
+            Console.WriteLine(spotify);
+            OpenApp(spotify);
         }
 
         private void Steam_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files (x86)/Steam/steam.exe");
+            string steam = ReadConfig("Steam", "Steam Path");
+            MessageBox.Show(steam);
+            Console.WriteLine(steam);
+            OpenApp(steam);
         }
 
         private void Youtube_Click(object sender, EventArgs e)
@@ -124,23 +192,33 @@ namespace AppOpener
 
         private void Valorant_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C \"C:/Riot Games/Riot Client/RiotClientServices.exe\" --launch-product=valorant --launch-patchline=live";
-            process.StartInfo = startInfo;
-            process.Start();
+            var decision = MessageBox.Show("Valorant is so difficult to open so it can crash App Launcher! Do you want continue?", "Valorant", MessageBoxButtons.YesNo);
+
+            if (decision == DialogResult.Yes) {
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                startInfo.FileName = "cmd.exe";
+                startInfo.Arguments = "/C \"C:/Riot Games/Riot Client/RiotClientServices.exe\" --launch-product=valorant --launch-patchline=live";
+                process.StartInfo = startInfo;
+                process.Start();
+                }
         }
 
         private void VisualStudio_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/devenv.exe");
+            string vs = ReadConfig("Visual Studio", "Visual Studio Path");
+            MessageBox.Show(vs);
+            Console.WriteLine(vs);
+            OpenApp(vs);
         }
 
         private void Whatsapp_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Users/dengu/AppData/Local/WhatsApp/WhatsApp.exe");
+            string wp = ReadConfig("Whatsapp", "Whatsapp Path");
+            MessageBox.Show(wp);
+            Console.WriteLine(wp);
+            OpenApp(wp);
         }
 
         private void Twitter_Click(object sender, EventArgs e)
@@ -150,7 +228,15 @@ namespace AppOpener
 
         private void Zoom_Click(object sender, EventArgs e)
         {
-            OpenApp("C:/Users/dengu/AppData/Roaming/Zoom/bin/Zoom.exe");
+            string zoom = ReadConfig("Zoom", "Zoom Path");
+            MessageBox.Show(zoom);
+            Console.WriteLine(zoom);
+            OpenApp(zoom);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
