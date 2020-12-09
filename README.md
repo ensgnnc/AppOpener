@@ -1,4 +1,4 @@
-# AppOpener
+# AppLauncher
 Forked from SeaBenSea
 
 Version 1.0:
