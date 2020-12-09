@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+
+//TO-DO: Add special app 
 namespace AppOpener
 {
     public partial class Form1 : Form
@@ -240,3 +242,4 @@ namespace AppOpener
         }
     }
 }
+//By Erynial
