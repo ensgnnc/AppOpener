@@ -203,8 +203,12 @@ namespace AppOpener
                 startInfo.FileName = "cmd.exe";
                 startInfo.Arguments = "/C \"C:/Riot Games/Riot Client/RiotClientServices.exe\" --launch-product=valorant --launch-patchline=live";
                 process.StartInfo = startInfo;
-                process.Start();
-                }
+                process.Start(); 
+            }
+            else
+            {
+                MessageBox.Show("Valorant launching cancelled.","Cancelled");
+            }
         }
 
         private void VisualStudio_Click(object sender, EventArgs e)

@@ -7,7 +7,7 @@
     <ProjectGuid>{834F6087-780C-4B26-81A3-53BA53147946}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>AppOpener</RootNamespace>
-    <AssemblyName>AppOpener</AssemblyName>
+    <AssemblyName>AppLauncher</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

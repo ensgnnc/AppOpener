@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppOpener", "AppOpener\AppOpener.csproj", "{834F6087-780C-4B26-81A3-53BA53147946}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLauncher", "AppLauncher\AppLauncher.csproj", "{834F6087-780C-4B26-81A3-53BA53147946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
